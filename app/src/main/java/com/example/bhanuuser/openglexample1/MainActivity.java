@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         Toast.makeText(this,"This is opengl",Toast.LENGTH_SHORT).show();
         Toast.makeText(this,"This is opengl",Toast.LENGTH_SHORT).show();
 
+        Toast.makeText(this,"This is opengl",Toast.LENGTH_SHORT).show();
+
     }
 
     @Override
