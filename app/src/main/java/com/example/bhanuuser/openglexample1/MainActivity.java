@@ -4,6 +4,7 @@ import android.opengl.GLSurfaceView;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 .addApi(Drive.API)
                 .addScope(Drive.SCOPE_FILE)
                 .build();
+        Toast.makeText(this,"This is opengl",Toast.LENGTH_SHORT).show();
 
     }
 
