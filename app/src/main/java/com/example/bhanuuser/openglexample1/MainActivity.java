@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 .addApi(Drive.API)
                 .addScope(Drive.SCOPE_FILE)
                 .build();
+
+        Toast.makeText(this,"This is opengl",Toast.LENGTH_SHORT).show();
         Toast.makeText(this,"This is opengl",Toast.LENGTH_SHORT).show();
 
     }
